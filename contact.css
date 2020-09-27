@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/f1/63/de/f163de0d5f31c495543acfeafd3e1453.jpg);
+}
+
+.card {
+    background-color: white;
+    margin: 100px auto;
+    
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:pink;
+  color: white;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+

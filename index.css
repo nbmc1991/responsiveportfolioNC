@@ -1,0 +1,58 @@
+8.rounded-sm {
+margin: 10px auto;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/564x/f1/63/de/f163de0d5f31c495543acfeafd3e1453.jpg);
+
+    }
+
+/* body {
+    background-color:rgb(212, 211, 211);
+
+} */
+
+
+
+.contaier {
+    background-color: honeydew;
+    
+}
+
+
+.card {
+    margin: 60px auto;
+}
+
+.card-image {
+  width: 10%;
+  height: 10%;
+}
+
+p{
+    text-align: left;
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:pink;
+    color: white;
+    text-align: center;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }

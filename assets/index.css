@@ -13,6 +13,7 @@ font-weight: 400;
 
 html{
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .section-1{
@@ -292,3 +293,5 @@ margin-bottom: 10rem;
   position: fixed;
   top: 0;
 }
+
+

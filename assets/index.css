@@ -26,7 +26,7 @@ html{
   
 }
 
-.section-1-heading {
+.section-heading {
   font-size: 6rem;
   font-weight: 700;
   color: #cb74ce;
@@ -88,6 +88,8 @@ transform: skew(-10deg);
   justify-content: center;
   align-items: center;
 }
+
+
 
 .navbar-link {
   font-size: 1.7rem;
@@ -206,7 +208,87 @@ margin-bottom: 10rem;
  }
  .service {
    text-align: center;
+
+
  }
  .service h2 {
    font-size: 2rem;
+   color: #cb74ce;
+   background-color: #e7a8df;
+   width: 25rem;
+  letter-spacing: .3rem;
+  transform: skew(-10deg);
+  box-shadow: .2rem .2rem .5rem ;
  }
+ .service i{
+   font-size: 7rem;
+   color: #cb74ce;
+   margin-bottom: 2rem;
+   text-shadow: 0.1rem 0.1rem 0.5rem #e7a8df;
+ }
+
+ .section-3 {
+   width: 100%;
+   height: 100%;
+   padding: 10rem 0;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   background-color: #e7a8df;
+
+   
+ }
+
+ .projects-wrapper {
+   width: 80%;
+   flex-wrap: wrap;
+ }
+ .project {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 1rem;
+ }
+.project-text {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  position: absolute;
+}
+.project-name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #813f73;
+  text-transform: capitalize;
+  
+}
+.project-link {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #813f73;
+  letter-spacing: 0.1rem;
+  border: .3rem solid #da6dc2;
+}
+
+.project-image{
+  width: 25rem;
+  height: 25rem;
+  /* object-fit: cover; */
+  /* border-radius: 85%; */
+  border: 0.7rem dotted #da6dc2;
+  background-color: rgba(255, 255,255, 0.7);
+  /* padding: 0.5rem;
+  opacity: 0.9; */
+
+}
+
+.project-link {
+  font-size: 2rem;
+  font-weight: 200rem ;
+  color: black;
+  border: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+}

@@ -1,4 +1,41 @@
 /* reset and common styles  */
+
+
+
+/* Styling the Switch button */
+/* .switch {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+} */
+
+/* Hide default HTML checkbox */
+/* .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+} */
+/* Dark Mode */
+/* .dark {
+  background-color: #333;
+  color: white;
+  height: 100vh;
+} */
+
+
+
+
+
+/* Light Mode */
+/* .light {
+  background-color: #2196F3;
+  color: white;
+  height: 100vh;
+} */
+
+
+
 *{
   margin:0;
   padding: 0;
@@ -7,7 +44,8 @@
   text-decoration: none;
   list-style-type: none;
   font-family: sans-serif;
- 
+
+
 font-weight: 400;
 }
 
@@ -19,7 +57,7 @@ html{
 .section-1{
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255, .3)),url(https://i.pinimg.com/564x/f1/63/de/f163de0d5f31c495543acfeafd3e1453.jpg)center 
+  /* background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255, .3)),url(https://i.pinimg.com/564x/f1/63/de/f163de0d5f31c495543acfeafd3e1453.jpg)center  */
   no-repeat;
   background-size: 50%;
   flex-direction: column;
@@ -27,6 +65,21 @@ html{
   
 }
 
+.section-1-span{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #cb74ce;
+  background-color: #ffffff;
+  padding: 0 3rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0rem;
+  /* border-bottom: .3rem solid #cb74ce; */
+  /* text-shadow: 0.2rem 0.2rem 1rem rgb(205, 132, 235); */
+transform: skew(-10deg);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 .section-heading {
   font-size: 6rem;
   font-weight: 700;
@@ -57,9 +110,21 @@ transform: skew(-10deg);
 }
 .person-name{
   font-size: 3rem;
+  font-weight: 700;
+  color: #cb74ce;
+  background-color: #ffffff;
+  padding: 0 3rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  /* border-bottom: .3rem solid #cb74ce; */
+  text-shadow: 0.2rem 0.2rem 1rem rgb(205, 132, 235);
+transform: skew(-10deg);
+  /* font-size: 3rem;
   color: black;
-  background-color: blueviolet;
-  transform: skew(-10deg);
+  
+  opacity: 20%;
+  transform: skew(-10deg); */
 
 }
 .section-1-btn {
@@ -79,7 +144,8 @@ transform: skew(-10deg);
   height: 9rem;
   background-color: #ecd4ec;
   box-shadow:0.2rem 0.2rem 0.5rem ;
-
+position: absolute;
+z-index: 300;
   
 }
 
@@ -293,5 +359,73 @@ margin-bottom: 10rem;
   position: fixed;
   top: 0;
 }
+
+.section-4 {
+  width: 100%;
+  height: 70vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.section-4-heading {
+  color: #da6dc2;
+  box-shadow: #ecd4ec;
+  border-color: #ffffff;
+  margin-bottom:0;
+}
+.contact-form {
+  width: 50rem;
+  flex-direction: column;
+}
+.contact-form input, 
+.contact-form textarea{
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: #eeefee;
+  font-size: 3rem;
+
+}
+
+.contact-form-btn{
+  background-color: aqua;
+  color: #da6dc2;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  cursor: pointer;
+}
+
+.contact-form textarea{
+  height: 10rem;
+  max-width: 100%;
+  max-height: 15rem;
+}
+.section-5 {
+  width: 100%;
+  height: 30vh;
+  background-color: #eeefee;
+ 
+  flex-direction: column;
+}
+.social-media-link {
+  margin:  0 2rem;
+  padding: .7rem ;
+  background-color: #f1ade3;
+  border-radius: 0.5rem;
+  inset-block: ;
+
+
+}
+
+.social-media-link i {
+  font-size: 3rem;
+  color: #cb74ce;
+}
+
+
 
 

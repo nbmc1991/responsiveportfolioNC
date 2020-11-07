@@ -1,7 +1,9 @@
 # responsiveportfolioNC
-![](images/filename 2020-11-06(1).png)
 
 
+![](https://github.com/nbmc1991/responsiveportfolioNC/blob/master/images/appfoto2.png)
+![](https://github.com/nbmc1991/responsiveportfolioNC/blob/master/images/appfoto1.png)
+![](https://github.com/nbmc1991/responsiveportfolioNC/blob/master/images/appfoto3.png)
 
 created a responsive portfolio with about me, completed projects and contact me info.
 Responsive portfolio with responsive images, navbar and layout.

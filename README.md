@@ -6,6 +6,7 @@ semantic HTML
 
 https://nbmc1991.github.io/responsiveportfolioNC/
 
-![](https://github.com/nbmc1991/responsiveportfolioNC/blob/master/images/appfoto2.png)
+![](https://github.com/nbmc1991/responsiveportfolioNC/blob/master/images/Screenshot%202020-11-07%20132128.png)
+
 
 

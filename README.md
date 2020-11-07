@@ -1,5 +1,5 @@
 # responsiveportfolioNC
-![](nbmc1991/responsiveportfolioNC/blob/master/images/appfoto2.png)
+
 
 
 

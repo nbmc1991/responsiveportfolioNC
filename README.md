@@ -1,4 +1,8 @@
 # responsiveportfolioNC
+![](images/filename 2020-11-06(1).png)
+
+
+
 created a responsive portfolio with about me, completed projects and contact me info.
 Responsive portfolio with responsive images, navbar and layout.
 used bootstrap grid system

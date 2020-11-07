@@ -1,5 +1,4 @@
-const navbar =document.querySelector(".navbar");
-const navbarOffsetTop = navbar.offsetTop;
+
 
 //this section will allow user to change the app light to dark theme
 // const themeSwitcher = document.querySelector("#theme-switcher");
@@ -20,6 +19,8 @@ const navbarOffsetTop = navbar.offsetTop;
 
 
 // confirm("Hello! Welcome to my Portfolio Page !")
+const navbar =document.querySelector(".navbar");
+const navbarOffsetTop = navbar.offsetTop;
 
 window.addEventListener("scroll",function(){
     // console.log(window.pageYOffset, navbar.offsetTop);
@@ -29,4 +30,7 @@ if (window.pageYOffset >= navbarOffsetTop){
 
 }
 });
+
+
+
 

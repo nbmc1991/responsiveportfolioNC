@@ -56,12 +56,17 @@ html{
 
 .section-1{
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   /* background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255, .3)),url(https://i.pinimg.com/564x/f1/63/de/f163de0d5f31c495543acfeafd3e1453.jpg)center  */
   no-repeat;
-  background-size: 50%;
+  
   flex-direction: column;
-  padding: 0 ;
+
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   
 }
 
@@ -97,21 +102,21 @@ transform: skew(-10deg);
 }
  
 .person-img {
-  width: 25rem;
-  height: 25rem;
+  width: 30rem;
+  height: 40rem;
   object-fit: cover;
-  border-radius: 85%;
-  border: 0.7rem dotted #da6dc2;
+  
+  
   background-color: rgba(255, 255,255, 0.7);
-  padding: 0.5rem;
+  margin-bottom: 3rem;
   opacity: 0.9;
 
   
 }
 .person-name{
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
-  color: #cb74ce;
+  color: #9d54a0;
   background-color: #ffffff;
   padding: 0 3rem;
   margin-bottom: 5rem;
@@ -218,13 +223,15 @@ z-index: 300;
   
  }
  .section-2{
-   width: 100%;
-   height: 100%;
-   padding: 5rem 0 10rem 0;
-   background-color: #ffffff;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+   
  }
 
  .section-2-heading{
@@ -295,14 +302,13 @@ margin-bottom: 10rem;
  }
 
  .section-3 {
-   width: 100%;
-   height: 100%;
-   padding: 10rem 0;
-   align-items: center;
-   display: flex;
-   flex-direction: column;
-   background-color: #e7a8df;
-
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
    
  }
 

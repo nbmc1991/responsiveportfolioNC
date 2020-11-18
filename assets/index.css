@@ -172,6 +172,87 @@ transition: 0.5s;
   mix-blend-mode: difference ;
 }
 
+.progress-bars-wrapper {
+  margin-bottom: 10rem;
+   }
+  
+   .progress-bar{
+     width: 60rem;
+     height: 3rem;
+     background-color: #f1ade3;
+     margin: 1.5rem 0 ;
+     position: relative;
+   }
+  
+   .progress-text{
+     position:absolute;
+     left: 1rem;
+     font-size: 1.5rem;
+     color: #813f73;
+   }
+  
+   .progress-text span{
+     margin: 0.5rem;
+     font-size: 1.8rem;
+     font-weight: 700;
+   }
+  
+   .progress-percent {
+     width: 90%;
+     height: 90%;
+  
+   }
+
+   .projects-wrapper {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+ .project-text {
+   text-align: center;
+   letter-spacing: 0.1rem;
+   position: absolute;
+ }
+ .project-name {
+   font-size: 3rem;
+   font-weight: 700;
+   color: #813f73;
+   text-transform: capitalize;
+   
+ }
+ .project-link {
+   font-size: 2rem;
+   font-weight: 500;
+   color: #813f73;
+   letter-spacing: 0.1rem;
+   border: .3rem solid #da6dc2;
+ }
+ 
+ .project-image{
+   width: 25rem;
+   height: 25rem;
+   /* object-fit: cover; */
+   /* border-radius: 85%; */
+   border: 0.7rem dotted #da6dc2;
+   background-color: rgba(255, 255,255, 0.7);
+   /* padding: 0.5rem;
+   opacity: 0.9; */
+ 
+ }
+ 
+ .project-link {
+   font-size: 2rem;
+   font-weight: 200rem ;
+   color: black;
+   border: white;
+ }
+
 @media (max-width: 767px)
 {
   header {
@@ -209,4 +290,5 @@ padding: 100px 50px 150px;
   margin-right: 10px;
 
 }
+
 }
